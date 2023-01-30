@@ -10,6 +10,9 @@ build/
 .idea
 /types
 contracts/hardhat-dependency-compiler
+temp-artifacts
+docker-compose.yml
+setup-test-env.sh
 
 deployed-contracts.json
 
