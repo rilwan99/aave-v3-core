@@ -1,0 +1,18 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+libs = [
+    'lib',
+    'node_modules',
+]
+remappings = [
+    '@aave/=node_modules/@aave/',
+    '@solidity-parser/=node_modules/prettier-plugin-solidity/node_modules/@solidity-parser/',
+    'eth-gas-reporter/=node_modules/eth-gas-reporter/',
+    'hardhat-deploy/=node_modules/hardhat-deploy/',
+    'hardhat/=node_modules/hardhat/',
+]
+test = 'test/foundry'
+cache_path  = 'forge-cache'
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config

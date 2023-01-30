@@ -22,3 +22,7 @@ coverage
 .coverage_contracts
 coverage.json
 deployments/
+
+#Foundry files
+out
+forge-cache
